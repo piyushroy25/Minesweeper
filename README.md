@@ -1,13 +1,10 @@
-# Minesweeper
-A Java-based implementation of the classic Minesweeper game that applies object-oriented principles, recursion, and a design to create an interactive user experience.
+# Connect 4 (Java)
+
+A Java implementation of the classic Connect 4 game using object-oriented design and 2D array structures.
 
 ## Features
-- Recursive clearing algorithm for zero-adjacent tiles  
-- Dynamic mine placement and flag system  
-- Adjustable grid size and difficulty  
-
-## How to Run
-1. Clone the repository:
-git clone https://github.com/piyushroy25/Minesweeper-Java.git
-2. Open in IntelliJ or VS Code.
-3. Run `Main.java`.
+- 6x7 Connect 4 board using 2D arrays  
+- Column-based piece dropping and turn switching  
+- Win-condition detection: horizontal, vertical, and diagonal  
+- Input validation and replay support  
+- Object-oriented structure for maintainability and readability  
